@@ -5,13 +5,13 @@
 * skype: stasya1043
 
 ## My goal
-My goal is striving for new knowledge and improving myself as a professional.
+My goal is striving for new knowledge and improving myself as a professional. 
 
 ## Skills
 * HTML, CSS
 * JS
 * React
-* Git, Webpack, Node
+* Git, GitHub, Webpack, Node
 
 ## Code examples
 
