@@ -72,4 +72,4 @@ HTML Academy, Coursera
 
 ## English level
 
-Intermediate
+Intermediate. I can read and understand a technical documentation.
