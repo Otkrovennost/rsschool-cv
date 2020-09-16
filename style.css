@@ -38,30 +38,30 @@
 .cv-info {
   max-width: 1024px;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   border: solid 8px rgba(180, 126, 126, 0.1);
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  color: #4B0082;
+  color: #856A55;
+  background-color: #FEFBF2;
 }
 
 .cv-info a {
-  color: #4B0082;
+  color:#856A55;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .cv-info a:hover,
 .cv-info a:focus {
-  color: #6A5ACD;
+  color:#BDA896;
   transition: all 0.3s ease;
 }
 
 .cv-info img {
   display: block;
-  margin: auto;
   padding: 10px;
   border-radius: 50%;
 }
@@ -74,14 +74,45 @@
 
 .cv-info h2 {
   font-weight: 700;
+  color: #eec485;
   text-transform: uppercase;
   text-align: center;
 }
 
 .cv-info h3 {
   font-weight: 600;
-  color: #00008B;
-  text-transform: uppercase;
+  font-size: 22px;
+  color: #eec485;
+}
+
+.cv-info__about {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #BDA896;
+}
+
+.cv-info__block {
+  margin-left: auto;
+}
+
+.cv-info__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cv-info__skills,
+.cv-info__education {
+  width: calc(50% - 20px);
+}
+
+.cv-info__english {
+  width: 100%;
+}
+
+.cv-info__about h2 {
+  width: 100%;
 }
 
 .cv-info__contacts a {
@@ -91,6 +122,15 @@
 
 .cv-info__skills li {
   margin: 0 0 15px 0;
+}
+
+.cv-info__projects ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cv-info__projects li {
+  width: calc(30% - 20px);
 }
 
 .cv-info__projects a {
